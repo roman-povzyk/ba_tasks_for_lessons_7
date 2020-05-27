@@ -6,6 +6,7 @@ def make_operation(math, *args):
         list_args.append(str(i))
         args_str = math.join(list_args)
         exec("result="+args_str, answer)
-    print(answer["result"])
+    return print(answer["result"])
+
 
 make_operation("*", 2, 4, 3)

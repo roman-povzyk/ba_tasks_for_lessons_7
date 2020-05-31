@@ -1,4 +1,4 @@
 def make_country(**kwargs):
-    return print(kwargs)
+    print(kwargs)
 
 make_country(name = "Ukraine", capital = "Kyiv")
